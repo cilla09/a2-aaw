@@ -4,6 +4,7 @@
 #### **Demonstrasi**
 
 1. Menjalankan `py order_produce.py` untuk mengirim event order yang dibuat
+
 ![alt text](images/image.png)
 
 2. Cek Overview RabbitMQ untuk queued messages yang masuk melalui message broker
@@ -12,9 +13,11 @@
 ![alt text](images/image-1.png)
 
 3. Menjalankan `py kitchen_consume.py` untuk simulasi dapur menerima order yang masuk (queued messages yang belum diterima)
+
 ![alt text](images/image-3.png)
 
 Message dari queue sudah diterima consumer, dan queue jadi kosong.
+
 ![alt text](images/image-5.png)
 ![alt text](images/image-4.png)
 
